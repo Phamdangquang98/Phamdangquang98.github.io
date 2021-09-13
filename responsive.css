@@ -1,0 +1,117 @@
+/* PC  */
+@media (min-width: 1024px) {
+    
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .black-background .content-section {max-width: 90% !important;}
+    .song-list .song-item {width: 31%;}
+    .from-control {width: 104%;}
+
+    /* nút cuối trang */
+    .social-list {
+        font-size: 50px !important;
+    }
+
+    .social-btn {
+        margin: 8px 8px;
+    }
+} 
+
+/* Mobile */
+@media (max-width: 740px) {
+    .content-section {max-width: 50%;}
+    
+    #nav {
+        display: block;
+    }
+    
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #main, #Header {
+        overflow: hidden;
+    }
+
+    #nav .subnav, #nav .subnav a {
+        position: initial;
+        background-color: #333;
+        color: white;
+        padding-left: 30px;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        position: absolute;
+        display: block;
+
+        top: 0;
+        right: 0;
+    }
+
+    /* hình ảnh mẫu */
+    .photoshop-sample {
+        display: table;
+        padding-bottom: 0px;
+    }
+    .photoshop-sample > .photo {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .photoshop-sample > .photo img {
+        width: 200px;
+        height: 200px;
+        margin-top: -12px;
+    }   /*end */
+
+
+    /* start of Music */
+    .content-section .song-list, .contact-content .col .row {
+        margin: 0;
+
+    }
+
+    .content-section .song-list > .song-item {
+        padding: 0;
+        width: 100%;
+
+    }   
+
+    #contact .contact-content {
+        width: 100%;
+        display: block;
+    }
+
+    #contact .contact-content > .col {
+        padding-bottom: 18px;
+    }
+
+    .col-half, .col {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact-content .col .row input {
+        margin: 2px 0px 2px 0px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .social-list {
+        font-size: 50px !important;
+    }
+
+    .social-btn {
+        margin: 8px 8px;
+    }
+}
